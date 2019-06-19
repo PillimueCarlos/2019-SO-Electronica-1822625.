@@ -10,7 +10,7 @@ int main(int argc, char** argv) {
     pid = fork();
 
    if (pid != 0) {
-     pid2 = wait(status);
+     pid2 = wait(&status);
      printf("Soy el padre, mi id es %d y el de mi hijo es %d\n",getpid(),pid);
    } else {
      printf("Soy el hijo con id %d y mi variable pid es %d\n",getpid(),pid); 
