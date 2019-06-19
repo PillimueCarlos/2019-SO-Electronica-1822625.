@@ -13,8 +13,8 @@ int main(int argc, char** argv) {
 
   printf("la resta de %d - %d es %d\n",a,b,resta(a,b));
 
-  printf("la multiplicación de %d * %d es %d\n",a,b,multiplicación(a,b));
+  printf("la multiplicacion de %d * %d es %d\n",a,b,multiplicacion(a,b));
 
-  printf("la división de %d / %d es %d\n",a,b,división(a,b));
+  printf("la division de %d / %d es %d\n",a,b,division(a,b));
 
     }
