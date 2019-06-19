@@ -3,7 +3,7 @@
 
 int main(int argc, char** argv) {
 
-   enetro a,b;
+   entero a,b;
 
    a = 5;
 

@@ -1,5 +1,5 @@
-#ifndef_entero_
-#define_entero_
+#ifndef __entero__
+#define __entero__
 
 #define entero int 
 
