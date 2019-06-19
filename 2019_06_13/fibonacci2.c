@@ -29,14 +29,17 @@ int leerEntero(char *fn) {
 int main(int argc, char** argv) {
   int x = 30;
   pid_t pid;
-  
+
   pid  = fork();
+
   if(pid == 0) {
     int f = fibonacci(x);
     guardarEntero("hola",f);
- } else{
+    printf("%d",f);
+ }  else{
     int status;
-   wait(&status);
-   status = leerEntero("hola");
-   printf("%d", status*100);
-}
+    wait(&status);
+    status = leerEntero("hola");
+    printf("%d",status*100);
+   }
+ }
