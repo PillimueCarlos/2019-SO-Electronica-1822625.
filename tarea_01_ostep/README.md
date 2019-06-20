@@ -1,4 +1,6 @@
  #Trabajo 
+ #Link video 
+ * [https://www.youtube.com/watch?v=fcN15IHjknA&feature=youtu.be](https://www.youtube.com/watch?v=fcN15IHjknA&feature=youtu.be)
 
  * [mem.c](mem.c)
  Para el primer punto se uso el archivo mem.c tal y como se habia trabajado en clase, simplemente se uso el comando 
